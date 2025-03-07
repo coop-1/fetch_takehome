@@ -1,0 +1,29 @@
+##################################################
+##           STAKEHOLDER CORRESPONDANCE         ##
+##################################################
+
+## Background ##
+
+    Given that we are interacting with a "product or business leader who isn’t familiar with your day to day work" we want to speak to the deliverable specifically and provide context as well as proposing a go forward plan. They do not care to know about data quality issues or specific technical execution (unless asked!)
+
+    Knowing this, any kind of questions surrounding data quality most likely will be directed to the data platform team (if 1st party data) or to the 3rd party data producer we are working with
+
+## Message to Stakeholder ##
+
+    *Note* sending slack vs email is very situational
+    - is there a larger group involved?
+    - how far along in the ask / project are you?
+
+    *Let's assume this is an ad hoc "exploratory" ask that may later turn into larger project based on results*
+
+    Slack Messages - 
+
+    "Hey <stakeholder> - see attached <dashboard / csv / etc.> with the various metrics we discussed"
+
+    "After exploring the data a bit, I noticed there are a handful of data quality issues that may limit the scope (and potential scalability) of future asks surrounding item purchases and brand attribution"
+
+    "You will notice that the metrics tied to brands specifically - ex. top 5 brands by receipts scanned - do not have the correct brand provided or captured at all"
+
+    "The metrics surfaced in the <dashboard / csv / etc.> are correct (ie. total receipts / total spend / etc.) but they are only limited to what was provided in item receipts so if you interested in seeing further detail about brand specific information we will need to put together a phased approach to make the information available"
+
+    "I will reach out to <data producer> to understand the work required to get a fix in - once that is clear we can figure out a plan to push these metrics out to you"
